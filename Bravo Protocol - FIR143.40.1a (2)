@@ -1,0 +1,30 @@
+Bravo Protocol - FIR143.40.1a			fail-synch 00:0000:0
+-----------------------------
+USER: admin-01	AUTH: ********			server-38a 00:07:43:06
+
+EXECUTE: 
+						results: {
+					   	  contents: [{
+						    videoPrimaryInfoRenderer: {},
+						    videoSecondaryInfoRenderer: {}
+						  }]
+					     }
+					    },
+					    secondaryResults: {
+						  secondaryResults: {}
+					  }
+				     }
+				    }
+				   }
+				  },
+				  player: blankSwfConfig
+			     };
+
+			     window.ytcfg.set('FILLER_DATA', fillerData);
+			   };
+
+			   	 window.getPageData = function() {
+			   	   if (window.ytcsi) {window.ytcsi.tick("pr", null, '');}
+			   	   var endpoint = null;
+			   	     endpoint = {commandMetadata":{"webCommandMetadata":{url":"watch?v=dQw4w9WgXcQ","w_
+

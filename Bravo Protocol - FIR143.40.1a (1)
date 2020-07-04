@@ -1,0 +1,64 @@
+Bravo Protocol - FIR143.40.1a			fail-synch 00:0000:0
+-----------------------------
+USER: admin-01	AUTH: ********			server-38a 00:07:43:06
+
+EXECUTE:
+
+
+
+
+
+	var fillerData = {
+			  browse: {
+			  	filler: true,
+			  	page: "browse"
+			  },
+			  home: {
+			  	filler: true,
+			  	page: home
+			  	response: {
+			  	  contents: {
+			  	    twoColumnBrowseResultsRenderer: {
+			  	      tabs: [{
+			  	        tabRenderer: {
+			  	          selected: true,
+			  	          content: {
+			  	            sectionListRenderer: {
+			  	              contents: [],
+			  	              continuations: [{
+			  	                nextContinuationData: {continuation: ''}
+			  	              }]
+			  	             }
+			  	            }
+			  	          }
+			  	        }]
+			  	      }
+			  	    }
+			  	  }
+			    },
+			    search: {
+			      filler: true,
+			      page: 'search',
+			      response: {
+			        contents: {
+			          twoColumnSearchResultsRenderer: {
+			            primaryContents: {
+			              sectionListRenderer: {
+			                contents: [],
+			                subMenu: {
+			                  searchSubMenuRenderer: {}
+			                }
+			              }
+			            },
+			          }
+			        }
+			      }
+			    },
+			    watch: {
+			      filler: true,
+			      page: 'watch',
+			      playerResponse: {
+			        playabilityStatus: {
+			          status: 'OK'
+			        }
+			      }
